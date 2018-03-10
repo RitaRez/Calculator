@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+
+         <script src="myScript.js"></script>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+    </head>
+    <body>
+        <center>
+        <div id="calculator">
+            <div id="logo">
+                <p>Rita`s calculator</p>
+            </div>
+            <div id="outputBody">
+                <p id="output"></p>
+            </div>
+
+            <div id="buttons">
+                <button onclick="changeOutput('7')" type="button" class="button col3 left" id="7" >7</button>
+                <button onclick="changeOutput('8')" type="button" class="button col3 left" id="8" >8</button>
+                <button onclick="changeOutput('9')" type="button" class="button col3 left" id="9" >9</button>
+                <button onclick="changeOutput('^')" type="button" class="button col3 left" id="^" >^</button>
+
+                <button onclick="changeOutput('4')" type="button" class="button col3 left" id="4" >4</button>
+                <button onclick="changeOutput('5')" type="button" class="button col3 left" id="5" >5</button>
+                <button onclick="changeOutput('6')" type="button" class="button col3 left" id="6" >6</button>
+                <button onclick="changeOutput('-')" type="button" class="button col3 left" id="-" >-</button>
+
+                <button onclick="changeOutput('1')" type="button" class="button col3 left" id="1" >1</button>
+                <button onclick="changeOutput('2')" type="button" class="button col3 left" id="2" >2</button>
+                <button onclick="changeOutput('3')" type="button" class="button col3 left" id="3" >3</button>
+                <button onclick="changeOutput('+')" type="button" class="button col3 left" id="+" >+</button>
+
+                <button onclick="changeOutput('0')" type="button" class="button col3 left" id="0" >0</button>
+                <button onclick="changeOutput('sqrt')" type="button" class="button col3 left" id="sqrt" >√</button>
+                <button onclick="changeOutput('/')" type="button" class="button col3 left" id="/" >÷</button>
+                <button onclick="changeOutput('x')" type="button" class="button col3 left" id="x" >x</button>
+
+                <button onclick="changeOutput('(')" type="button" class="button col3 left" id="par1" >(</button>
+                <button onclick="changeOutput(')')" type="button" class="button col3 left" id="par2" >)</button>
+                <button onclick="changeOutput('=')" type="button" class="button col6 left" id="=" >=</button>
+
+
+
+            </div>
+        </div>
+        </center>
+    </body>
+</html>
